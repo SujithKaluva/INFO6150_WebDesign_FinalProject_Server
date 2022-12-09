@@ -69,6 +69,4 @@ export const post = async (request, response) => {
     catch (error) {
         httpUtils.setErrorResponse(error,response);
     }
-
-
 }
