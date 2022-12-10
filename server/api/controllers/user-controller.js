@@ -23,12 +23,13 @@ export const post = async (request, response) =>{
         };
 
         transporter.sendMail(options, function (err, info) {
+            console.log("In mail method");
             if (err) {
-                console.log(err);
+                console.log("error:"+err);
                 return;
             }
             console.log("sent :" + info.response);
-        })
+        });
         httpUtils.setSuccessResponse({"isSignedUp": true, "message": "user signed up"}, response);
     } catch (error) {
         httpUtils.setConflictResponse({"isSignedUp": false, "message" : "username already exists"}, response);
