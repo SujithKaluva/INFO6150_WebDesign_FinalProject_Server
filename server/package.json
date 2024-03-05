@@ -23,7 +23,7 @@
     "cors": "^2.8.5",
     "debug": "^4.3.4",
     "express": "^4.17.3",
-    "mongoose": "^6.2.10",
+    "mongoose": "^6.12.6",
     "node-fetch": "^3.2.3",
     "nodemailer": "^6.7.3",
     "request": "^2.88.2"
