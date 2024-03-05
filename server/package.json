@@ -19,7 +19,7 @@
   "homepage": "https://github.com/AnweshPeddineni/INFO6150_WebDesign_FinalProject#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "bcrypt": "^5.0.1",
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "debug": "^4.3.4",
     "express": "^4.17.3",
